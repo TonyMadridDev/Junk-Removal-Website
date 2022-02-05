@@ -32,10 +32,5 @@ color: #99ff66;
  }
 
  .flex-items > div {
-   padding: 20px;
-   border-left: #99ff66 3px solid;   
- }
-
- .flex-items > div:first-child {
-   border-left: none;
+   padding: 20px;  
  }
