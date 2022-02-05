@@ -1,0 +1,41 @@
+/* Text-colors */
+.text-primary {
+color: #99ff66;
+}
+
+/* Button */
+
+.btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #99ff66;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  color: #333;
+  background-color: #99ff66;
+}
+
+/* flex items */
+ .flex-items {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+ }
+
+ .flex-items > div {
+   padding: 20px;
+   border-left: #99ff66 3px solid;   
+ }
+
+ .flex-items > div:first-child {
+   border-left: none;
+ }
