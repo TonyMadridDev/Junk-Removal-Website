@@ -133,6 +133,10 @@ img {
   margin-bottom: 15px;
 }
 
+
+/* About */
+
+
 /* Contact Form */
 
 .contact-form {
@@ -165,4 +169,34 @@ img {
   margin-top: 20px;
 }
 
+/* Mobile */
 
+@media(max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      height: 120px;
+      padding: 20px;
+  }
+
+  .navbar a {
+      padding: 10px 10px;
+      margin: 0 30px;
+  }
+
+  .flex-items {
+      flex-direction: column;
+  }
+
+  .flex-columns .row{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+
+.team img {
+  width:70%;
+}
+
+}
